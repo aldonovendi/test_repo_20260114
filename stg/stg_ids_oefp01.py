@@ -8,8 +8,11 @@ from awsglue.context import GlueContext
 from awsglue.job import Job
 from pyspark.conf import SparkConf
 
+<<<<<<< HEAD
 abcde
 
+=======
+>>>>>>> parent of 7cf784c (test)
 conf = SparkConf() \
     .set("spark.sql.sources.partitionOverwriteMode","dynamic") \
     .set("spark.sql.parquet.enableVectorizedReader", "false") \
