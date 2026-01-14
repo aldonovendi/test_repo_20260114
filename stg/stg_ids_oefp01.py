@@ -8,6 +8,8 @@ from awsglue.context import GlueContext
 from awsglue.job import Job
 from pyspark.conf import SparkConf
 
+a
+
 conf = SparkConf() \
     .set("spark.sql.sources.partitionOverwriteMode","dynamic") \
     .set("spark.sql.parquet.enableVectorizedReader", "false") \
